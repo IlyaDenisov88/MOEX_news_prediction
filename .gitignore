@@ -1,0 +1,15 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+*.joblib
+archive/
+catboost_info/
+notebooks/
+reports/
+updates/
+data/*.csv
+data/*.parquet
+data/final_model_outputs/
+data/streamlit_training_runs/
+.streamlit/secrets.toml

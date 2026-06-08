@@ -1,0 +1,13 @@
+feature_set,model,f1,roc_auc,pr_auc,precision_at_5pct,precision_at_10pct,model_short
+Только новости,Logistic Regression,0.388,0.497,0.497,0.429,0.453,LogReg
+Только новости,ExtraTrees,0.477,0.501,0.505,0.455,0.484,ExtraTrees
+Только новости,CatBoost,0.483,0.497,0.511,0.607,0.569,CatBoost
+Только новости,HistGradientBoosting,0.515,0.491,0.504,0.5,0.516,HGBoost
+Рынок в момент новости,Logistic Regression,0.513,0.669,0.676,0.839,0.796,LogReg
+Рынок в момент новости,ExtraTrees,0.513,0.662,0.672,0.821,0.818,ExtraTrees
+Рынок в момент новости,CatBoost,0.541,0.68,0.688,0.875,0.804,CatBoost
+Рынок в момент новости,HistGradientBoosting,0.546,0.669,0.681,0.866,0.813,HGBoost
+Новости + рынок,Logistic Regression,0.524,0.648,0.651,0.75,0.751,LogReg
+Новости + рынок,ExtraTrees,0.518,0.66,0.67,0.83,0.796,ExtraTrees
+Новости + рынок,CatBoost,0.538,0.675,0.68,0.866,0.791,CatBoost
+Новости + рынок,HistGradientBoosting,0.551,0.669,0.681,0.866,0.796,HGBoost
